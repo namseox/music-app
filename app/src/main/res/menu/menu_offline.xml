@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<!--    <item-->
+<!--        android:id="@+id/overflowMenu"-->
+<!--        android:icon="@drawable/ic_3_dot"-->
+<!--        android:title=""-->
+<!--        app:showAsAction="always">-->
+<!--        <menu>-->
+    <item
+        android:id="@+id/search"
+        android:title="Search"
+        android:icon="@drawable/search"/>
+
+    <item
+        android:id="@+id/sort_a"
+        android:title="Sắp xếp a->z" />
+    <item
+        android:id="@+id/sort_z"
+        android:title="Sắp xếp z->a" />
+    <item
+        android:id="@+id/sort_time"
+        android:title="Sắp xếp theo thời gian" />
+    <item
+        android:id="@+id/sleep_timer"
+        android:title="@string/sleep_timer"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/watch"/>
+<!--        </menu>-->
+<!--    </item>-->
+</menu>
